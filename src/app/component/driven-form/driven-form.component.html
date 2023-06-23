@@ -1,0 +1,10 @@
+<p>driven-form works!</p>
+<form (ngSubmit)="submitForm()">
+  Name: <input
+  type="text"
+  [(ngModel)]="name"
+  [ngModelOptions]="{standalone: true}"/>
+  <p>{{name}}</p>
+  <button type="submit">Submit</button>
+<!--  <button type="submit" (click)="submitForm()">Submit</button>-->
+</form>

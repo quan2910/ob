@@ -1,0 +1,10 @@
+<h1>Welcome Angular 12</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  <a routerLink="/district" routerLinkActive="active" ariaCurrentWhenActive="page">Province</a> ||
+  <a routerLink="/driven-form" routerLinkActive="active" ariaCurrentWhenActive="page">DrivenForm</a> ||
+  <a routerLink="/reactive-form" routerLinkActive="active" ariaCurrentWhenActive="page">ReactiveForm</a> ||
+  <a routerLink="/observable" routerLinkActive="active" ariaCurrentWhenActive="page">Observable</a>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet></router-outlet>

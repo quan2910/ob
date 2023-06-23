@@ -1,0 +1,8 @@
+Tỉnh thành: <br>
+<select id="province" (change)="changeProvince($event)">
+  <option *ngFor="let province of provinces" value="{{ province.province }}">{{ province.province }}</option>
+</select> <br>
+Quận, huyện: <br>
+<select id="district">
+  <option *ngFor="let district of districts" value="">{{ district }}</option>
+</select>
